@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michelle Matillosa-Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">MM.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#techstack">Tech Stack</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- RIGHT GROUP: Resume + Social Icons + Theme Toggle -->
+    <div class="nav-right">
+      <div class="nav-divider"></div>
+      <a href="resume.pdf" class="btn btn-nav" download>
+        <i data-lucide="download"></i> Resume
+      </a>
+      <a href="https://github.com/michelle-matillosa-dev" class="nav-icon-link" aria-label="GitHub" target="_blank">
+        <i data-lucide="github"></i>
+        
+      </a>
+      <a href="https://web.facebook.com/mitch.matillosa/" class="nav-icon-link" aria-label="Facebook" target="_blank">
+        <i data-lucide="facebook"></i>
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i data-lucide="moon" class="icon-moon"></i>
+        <i data-lucide="sun" class="icon-sun"></i>
+      </button>
+      <button class="hamburger" aria-label="Open menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <div class="hero-content">
+      <div class="hero-available">
+        <span class="dot"></span> Project Leader | Canva Editor 
+      </div>
+      <h1>
+        Hi, I'm <em>Michelle E. Matillosa</em> 
+      </h1>
+      <p class="hero-sub">
+        Project Leader | Canva Editor <br> <br> I lead projects with organization and creativity, while designing visually engaging content using Canva to deliver clear and impactful results.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          View My Projects
+          <i data-lucide="arrow-right"></i>
+        </a>
+        <a href="resume.pdf" class="btn btn-ghost" download>
+          <i data-lucide="download"></i>
+          Resume
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="profile-image">
+        <img src="images/profile.png" alt="Michelle E. Matillosa profile photo">
+      </div>
+      <div class="floating-chip chip-1">
+        <i data-lucide="graduation-cap"></i> Designer
+      </div>
+      <div class="floating-chip chip-2">
+        <i data-lucide="code-2"></i> Always Learning
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-image">
+        <div class="img-wrap">
+          <img src="images/image2.jpg" />
+        </div>
+        <div class="exp-badge">
+          <strong>BSIT</strong>
+      
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p class="eyebrow">About Me</p>
+        <h2>Turning academic knowledge into <em>practical</em> solutions.</h2>
+        <p>
+          I am a Bachelor of Science in Information Technology (BSIT) student at Davao del Norte State College, passionate about creative editing, web design, and team leadership.        </p>
+        <p>
+          I aim to combine creativity, leadership, and technology to contribute meaningfully to projects and organizations while continuously improving my skills.
+        </p>
+        <a href="#contact" class="btn btn-primary">
+          Get in touch <i data-lucide="arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header">
+      <p class="eyebrow">Experience</p>
+      <h2>Hands-on work that shaped my skills</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <div>
+              <h3>IT Intern — On-the-Job Training</h3>
+              <p class="timeline-org">
+                <i data-lucide="building-2"></i>
+                Davao Del Norte State College · Faculty Association
+              </p>
+            </div>
+            <span class="timeline-period">Feb 2026 – May 2026</span>
+          </div>
+          <p class="timeline-desc">
+            My responsibilities included designing and editing posters and PowerPoint presentations for faculty use. I also assisted teachers with word-processing tasks, formatting documents, and solving minor technical issues related to printing and file preparation. This experience helped me improve my communication skills, attention to detail, and ability to work in a professional environment.
+          </p>
+          <div class="timeline-tags">
+            <span>Assistant</span>
+            <span>Designing</span>
+            <span>Printer Troubleshooting</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section id="techstack">
+    <div class="section-header">
+      <p class="eyebrow">Skills & Tools</p>
+      <h2>Design, Web Editing, and Project Leadership</h2>
+    </div>
+
+    <div class="stack-grid">
+
+      <div class="stack-category reveal">
+        <div class="stack-cat-header">
+          <div class="stack-icon"><i data-lucide="palette"></i></div>
+          <h3>UI / UX Design & Editing</h3>
+        </div>
+        <div class="stack-badges">
+          <span class="badge badge-primary">Figma</span>
+          <span class="badge badge-primary">Canva</span>
+          <span class="badge badge-primary">UI Layout Design</span>
+          <span class="badge badge-primary">Presentation Design</span>
+        </div>
+      </div>
+
+      <div class="stack-category reveal">
+        <div class="stack-cat-header">
+          <div class="stack-icon"><i data-lucide="layout"></i></div>
+          <h3>Front-End Web Editing</h3>
+        </div>
+        <div class="stack-badges">
+          <span class="badge badge-blue">HTML5</span>
+          <span class="badge badge-blue">CSS3</span>
+          <span class="badge badge-blue">Bootstrap</span>
+          <span class="badge badge-blue">JavaScript (Basic)</span>
+        </div>
+      </div>
+
+      <div class="stack-category reveal">
+        <div class="stack-cat-header">
+          <div class="stack-icon"><i data-lucide="users"></i></div>
+          <h3>Project Management</h3>
+        </div>
+        <div class="stack-badges">
+          <span class="badge badge-primary">Capstone Project Manager</span>
+          <span class="badge badge-primary">Task Coordination</span>
+          <span class="badge badge-primary">UI Planning</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header">
+      <p class="eyebrow">Projects</p>
+      <h2>Selected works that demonstrate my craft</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <span class="work-tag">Web App · Capstone</span>
+          <a href="#" class="project-link" aria-label="View project">
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+        <h3>NAVISTFIND: LOST AND FOUND RECOMMENDATION SYSTEM USING NATURAL LANGUAGE PROCESSING WITH AUGMENTED REALITY CAMPUS NAVIGATION</h3>
+        <p>
+          NavistFind is a smart campus lost-and-found system that uses Natural Language Processing (NLP) to match lost item reports with found item listings through intelligent text analysis. Integrated with Augmented Reality (AR) navigation, it guides users directly to item collection points within the campus — making the retrieval process faster, smarter, and more intuitive.
+        </p>
+        <div class="project-footer">
+          <span class="project-year">2026</span>
+        </div>
+      </div>
+<br>
+      <div class="project-card reveal">
+        <div class="project-top">
+          <span class="work-tag">Editing · Canva</span>
+          <a href="#" class="project-link" aria-label="View project">
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+        <h3>User Manual Design — NavistFind System</h3>
+        <p>
+          Designed a comprehensive user manual for the NavistFind lost-and-found system using Canva. 
+          The manual covers step-by-step instructions for item reporting, AR navigation, and admin 
+          management — crafted with clear visuals, icons, and layouts to ensure ease of use for 
+          all campus users.
+        </p>
+        <div class="project-footer">
+          <div class="project-tech">
+            <span>Canva</span>
+            <span>UI Documentation</span>
+            <span>Visual Design</span>
+          </div>
+          <span class="project-year">2026</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="section-header">
+      <p class="eyebrow">Certifications</p>
+      <h2>Continuous learning and professional development</h2>
+    </div>
+    <div class="cert-list">
+
+      <div class="cert-item reveal">
+        <div class="cert-icon"><i data-lucide="award"></i></div>
+        <div class="cert-body">
+          <h3>Advance Seminar Series</h3>
+          <p class="cert-desc">
+            The power of Color in the Graphic Design: Theory, Psychology, and practice.
+          </p>
+        </div>
+        <span class="cert-year">November 5, 2025</span>
+      </div>
+
+      <div class="cert-item reveal">
+        <div class="cert-icon"><i data-lucide="award"></i></div>
+        <div class="cert-body">
+          <h3>Advance Seminar Series</h3>
+          <p class="cert-desc">
+            Journey from Science Practitioner information technology specialist
+          </p>
+        </div>
+        <span class="cert-year">October 17, 2025</span>
+      </div>
+
+      <div class="cert-item reveal">
+        <div class="cert-icon"><i data-lucide="award"></i></div>
+        <div class="cert-body">
+          <h3>Introduction to Packet Tracer</h3>
+          <p class="cert-desc">
+            Cisco Networking Academy program.
+          </p>
+        </div>
+        <span class="cert-year">February 18, 2024</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LEADERSHIP GALLERY -->
+  <section id="leadership">
+    <div class="section-header">
+      <p class="eyebrow">Leadership</p>
+      <h2>Leadership in Action</h2>
+      <p class="section-sub">
+        Moments where I led, organized, and guided my team throughout college projects and capstone development.
+      </p>
+    </div>
+
+    <div class="leader-grid">
+
+      <div class="leader-card reveal">
+        <img src="images/leader1.jpg" alt="Leading capstone meeting">
+        <div class="leader-caption">
+          <h3>Capstone Project Leader</h3>
+          <p>Facilitating team discussion and task delegation.</p>
+        </div>
+      </div>
+
+      <div class="leader-card reveal">
+        <img src="images/leader2.jpg" alt="Group planning session">
+        <div class="leader-caption">
+          <h3>Project Planning</h3>
+          <p>Organizing schedules, tasks, and documentation.</p>
+        </div>
+      </div>
+
+      <div class="leader-card reveal">
+        <img src="images/leader3.jpg" alt="Team coordination">
+        <div class="leader-caption">
+          <h3>Team Coordination</h3>
+          <p>Ensuring collaboration and progress tracking.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+   
+  <section id="contact">
+    <div class="contact-grid">
+      <div class="contact-left">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's connect and build something great.</h2>
+        <p class="contact-sub">
+          I'm open to freelance projects and collaborations.
+        </p>
+        <ul class="contact-details">
+          <li>
+            <i data-lucide="mail"></i>
+            <a href="mailto:matillosamichelle@gmail.com">matillosamichelle@gmail.com</a>
+          </li>
+          <li>
+            <i data-lucide="map-pin"></i>
+            <span>Carmen, Davao del Norte</span>
+          </li>
+          <li>
+            <i data-lucide="graduation-cap"></i>
+            <span>BSIT · Davao del Norte State College</span>
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="https://github.com/michelle-matillosa-dev" aria-label="GitHub" target="_blank">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="https://web.facebook.com/mitch.matillosa/" aria-label="Facebook" target="_blank">
+            <i data-lucide="facebook"></i>
+          </a>
+        </div>
+      </div>
+
+      <form id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Juan dela Cruz" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="juan@company.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Project inquiry" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell me about the opportunity or project you have in mind..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          Send Message <i data-lucide="send"></i>
+        </button>
+        <p class="form-success" id="form-success">
+          <i data-lucide="check-circle"></i> Message received — I'll be in touch soon.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">MM.</span>
+      <p>© <span id="year"></span> Michelle Matillosa. All rights reserved.</p>
+      <p class="footer-right">BSIT · Aspiring Developer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
